@@ -5,6 +5,5 @@ inputs:
     description: 'The version of OpenSSL to install (default: openssl@3)'
     default: 'openssl@3'
 runs:
-  using: 'bash'
-  main: './setup-openssl.sh'
-
+  using: 'node20'
+  main: './index.js'

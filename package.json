@@ -1,0 +1,21 @@
+{
+  "name": "setup-openssl",
+  "version": "1.0.2",
+  "private": true,
+  "description": "Set up your GitHub Actions workflow with Homebrew OpenSSL",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seavan/setup-openssl.git"
+  },
+  "keywords": [
+    "actions",
+    "openssl",
+    "setup"
+  ],
+  "author": "Samvel Avanesov",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "*"
+  }
+}
