@@ -16,6 +16,7 @@
   "author": "Samvel Avanesov",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "*"
+    "@actions/core": "*",
+    "@actions/github": "*"
   }
 }
